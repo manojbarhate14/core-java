@@ -5,7 +5,7 @@ public class Assignment_CountVowel_Consonant
 	public void Count() 
 	{
 		int vcount=0, ccount=0;
-		String str="This Is Areally Simple Sentance";
+		String str="This Is A really Simple Sentance";
 		str=str.toLowerCase();
 		
 		for (int i=0; i<str.length(); i++) 

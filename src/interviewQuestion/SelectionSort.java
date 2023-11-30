@@ -1,18 +1,17 @@
 package interviewQuestion;
 
-public class Bubble_sort {
+import java.util.Arrays;
+
+public class SelectionSort {
 
 	public static void main(String[] args) {
 		int ar[]= {25,-22,85,35,29,0};
 		int temp=0;
+		System.out.println(Arrays.toString(ar));
 		System.out.println("Bubble sort");
 		System.out.println("Array length is "+ar.length);
 		int i,j;
 		
-		for (i=0; i<ar.length; i++) 
-		{
-			System.out.println("ar["+i+"]= "+ar[i]);
-		}
 		for (i=0; i<ar.length; i++)
 		{
 			for (j=0; j<ar.length; j++) 
@@ -25,11 +24,12 @@ public class Bubble_sort {
 				}
 			}
 		}
+		  
 		System.out.println();
-		System.out.println("after bubble sort(Descending)");
+		System.out.println("after selection sort(Descending)");
 		for (i=0; i<ar.length; i++)
 		{
-			System.out.println("ar["+i+"]=" +ar[i]);
+			System.out.print("ar["+i+"]="+ar[i]+", ");
 		}
 	}
 }

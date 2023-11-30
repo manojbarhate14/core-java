@@ -1,6 +1,6 @@
 package interviewQuestion;
 
-public class CommonEleArray {
+public class CommonStringArray {
 
 	public static void main(String[] args) {
 		String array1[]= {"suraj", "manoj", "shubham", "ganesh"};
@@ -18,6 +18,7 @@ public class CommonEleArray {
 			}
 		}
 
+		// common number from array
 		int array3[]= {2,5,7,8,9};
 		int array4[]= {5,2,7,4,6};
 

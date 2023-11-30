@@ -10,13 +10,13 @@ public class SecondLargestElement {
 		System.out.println("Array length= "+ar.length);
 		for(int i=0; i<ar.length; i++) 
 		{
-			System.out.println("ar ["+i+"] = "+ar[i]);
+			System.out.print("ar["+i+"]="+ar[i]+",");
 		}
-		
+		System.out.println();
 		for(int i=0; i<size; i++) {
 			for (int j=i+1; j<size; j++)
 			{
-				if (ar[i]>ar[j])    //selection sort
+				if (ar[i]>ar[j])    //Bubble sort
 				{
 					temp = ar[i];
 					ar[i] = ar[j];
@@ -24,12 +24,14 @@ public class SecondLargestElement {
 				}
 			}
 	   }
+		
+		
 		System.out.println("***After Sorting***");
 		for(int i=0; i<ar.length; i++) 
 		{
-			System.out.println("ar ["+i+"] = "+ar[i]);
+			System.out.print("ar["+i+"]="+ar[i]+", ");
 		}
-		
+		System.out.println();
 		System.out.println("Second Largest Element= "+ar[size-2]);
 	}
 
